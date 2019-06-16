@@ -1,7 +1,7 @@
 # acmdl
 CLI for ACM Digital Library
 
-[![asciicast](https://asciinema.org/a/3R7o6iqnEKisi6FLnCusXKbbR.svg)](https://asciinema.org/a/3R7o6iqnEKisi6FLnCusXKbbR)
+[![asciicast](https://asciinema.org/a/piE9eiJ5JFMuy1KxmfssgyvDj.svg)](https://asciinema.org/a/piE9eiJ5JFMuy1KxmfssgyvDj)
 
 ## Installation
 ### Dependencies
