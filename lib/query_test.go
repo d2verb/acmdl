@@ -22,7 +22,7 @@ func TestQueryEncoding(t *testing.T) {
 			[]string{"vmm", "+security"},
 			-1,
 			0,
-			url.Values{"dte": []string{""}, "query": []string{"(vmm +security)"}, "start": []string{"0"}},
+			url.Values{"dte": []string{""}, "query": []string{"(vmm %2Bsecurity)"}, "start": []string{"0"}},
 		},
 		{
 			[]string{"vmm", "-security"},
