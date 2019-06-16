@@ -42,4 +42,4 @@ GLOBAL OPTIONS:
 ```
 
 ## Contributions
-Open issues and pull requests are welcome.
+Open issues and submit pull requests are welcome.
