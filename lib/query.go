@@ -4,6 +4,7 @@ import (
 	"bytes"
 	"net/url"
 	"strconv"
+	"strings"
 )
 
 type Query struct {
@@ -39,7 +40,10 @@ func (q *Query) encodeWords() string {
 		if i != 0 {
 			out.WriteString(" ")
 		}
-		out.WriteString(word)
+
+		// "+security" should be converted to "%2Bsecurity" before url encoding
+		// So after url encoding "%2Bsecurity" will be "%252Bsecurity"
+		out.WriteString(strings.Replace(word, "+", "%2B", -1))
 	}
 
 	out.WriteString(")")
