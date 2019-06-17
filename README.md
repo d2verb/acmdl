@@ -10,10 +10,11 @@ If you want build from source code, you have to install Golang to your machine a
 If you don't know how to install Golang, see [here](https://golang.org/doc/install).
 If you don't know how to install `dep`, see [here](https://github.com/golang/dep).
 
-After installing Golang and `dep`. Following commands install `acmdl` to your machine.
+### From source
+After installing Golang and `dep`. You can use following commands to install `acmdl` to your machine.
 ```
-$ git clone https://github.com/d2verb/acmdl
-$ cd acmdl
+$ go get github.com/d2verb/acmdl
+$ cd $GOPATH/src/github.com/d2verb/acmdl
 $ make ensure
 $ make install
 ```
